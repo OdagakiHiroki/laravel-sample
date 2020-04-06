@@ -1,6 +1,6 @@
 # laravel-sample
 ## アプリケーションサーバーを作成
-## webサーバーコンテナを作成
+## webサーバーコンテナを作成(nginx)
 ## Laravelをインストール
 appコンテナに入る
 ```
@@ -14,6 +14,7 @@ composer create-project --prefer-dist "laravel/laravel=6.0.*" .
 ```
 php artisan -V
 ```
+## データベースコンテナを作成（mysql)
 
 ### コマンド
 dockerコンテナの起動、作成
