@@ -15,8 +15,9 @@ composer create-project --prefer-dist "laravel/laravel=6.0.*" .
 php artisan -V
 ```
 ## データベースコンテナを作成（mysql)
+### migrationの実行
 
-### コマンド
+#### その他コマンド
 dockerコンテナの起動、作成
 ```
 docket-compose up -d --build
